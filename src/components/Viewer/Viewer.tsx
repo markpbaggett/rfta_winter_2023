@@ -39,12 +39,12 @@ const defaultOptions = {
     },
   },
   informationPanel: {
-    open: false,
+    open: true,
     renderAbout: false,
-    renderToggle: false,
+    renderToggle: true,
   },
   showTitle: false,
-  showIIIFBadge: false,
+  showIIIFBadge: true,
 };
 
 const Viewer = ({
